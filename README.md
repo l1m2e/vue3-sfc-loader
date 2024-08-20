@@ -1,10 +1,11 @@
-# vue3-sfc-loader
+# vue3-sfc-loader-chrome64
 
 ###### [API](docs/api/README.md#loadmodule) | [FAQ](docs/faq.md) | [Examples](docs/examples.md) | [dist](#dist) | [Roadmap](../../issues/1)
 
+This is the version built to work with chrome64 based on [vue3-sfc-loader](https://github.com/FranckFreiburger/vue3-sfc-loader).
+
 Vue3/Vue2 Single File Component loader.  
 Load .vue files dynamically at runtime from your html/js. No node.js environment, no (webpack) build step needed.  
-
 
 ## Key Features
 
@@ -88,7 +89,7 @@ Load .vue files dynamically at runtime from your html/js. No node.js environment
   [<!--update-min-br-size-->![bundle minified+brotli size](https://img.shields.io/badge/min%2Bbr-385kB-blue)<!--/update-min-br-size-->](#dist)
   [<!--update-min-gz-size-->![bundle minified+gzip size](https://img.shields.io/badge/min%2Bgz-488kB-blue)<!--/update-min-gz-size-->](#dist)
   [<!--update-min-size-->![bundle minified size](https://img.shields.io/badge/min-1794kB-blue)<!--/update-min-size-->](#dist)
-  
+
   [![browser support](https://img.shields.io/github/package-json/browserslist/FranckFreiburger/vue3-sfc-loader)](https://github.com/browserslist/browserslist#query-composition)
 
   [![](https://data.jsdelivr.com/v1/package/npm/vue3-sfc-loader/badge)](https://www.jsdelivr.com/package/npm/vue3-sfc-loader)
@@ -107,14 +108,14 @@ Load .vue files dynamically at runtime from your html/js. No node.js environment
 
   **esm version**: `dist/vue3-sfc-loader.esm.js`  
   **umd version**: `dist/vue3-sfc-loader.js`  
-  
+
   <br>
 
   ![Vue2](https://img.shields.io/github/package-json/dependency-version/FranckFreiburger/vue3-sfc-loader/dev/vue-template-compiler?label=For%20Vue%202)
   - `npm install vue3-sfc-loader` (use 'vue3-sfc-loader/dist/vue2-sfc-loader.js')
   - [jsDelivr](https://www.jsdelivr.com/package/npm/vue3-sfc-loader?path=dist) CDN: https://cdn.jsdelivr.net/npm/vue3-sfc-loader/dist/vue2-sfc-loader.js
   - [UNPKG](https://unpkg.com/browse/vue3-sfc-loader/dist/) CDN: https://unpkg.com/vue3-sfc-loader/dist/vue2-sfc-loader.js
-  
+
   **esm version**: `dist/vue2-sfc-loader.esm.js`  
   **umd version**: `dist/vue2-sfc-loader.js`  
 
